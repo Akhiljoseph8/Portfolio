@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Kalnia', serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(3, 248, 248, 0.184);
+}
+.navlogo{
+    width: 120px;
+}
+.navlinks{
+    padding: 20px;
+}
+.link{
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: font-size 400ms;
+}
+.link:hover{
+    font-size: 18px;
+    color: red;
+}
+.homecontent{
+   margin-top: 100px;
+   width: 45%;
+   margin-left: 30px;
+}
+.homecontent h1{
+    font-size: 50px;
+}
+.homecontent span{
+    color: brown;
+}
+.homecontent p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.homecontent a{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+.homeimg{
+    position: absolute;
+    width: 45%;
+    top: 170px;
+    right: 30px;
+    bottom: 0px;
+}
+#imgItem{
+    Width:90%;
+    height:90%;
+    transition: transform 300ms;
+}
+#imgItem:hover{
+    transform: scale(.9);
+}
+#about{
+    margin-top:25%
+}
+#about>h2{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+#about>h4{
+    text-align: center;
+    color: yellowgreen;
+    font-size: 20px;
+}
+.aboutcontent{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.item{
+    width: 100%;
+}
+.abtintro{
+    text-align: justify;
+}
